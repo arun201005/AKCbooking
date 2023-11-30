@@ -1,0 +1,25 @@
+.photos{
+    width: 100%;
+    display: flex;
+    max-width: 1024px;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+.photosImg{
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.photosItem{
+    position: relative;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 250px;
+}
+.featuredTitles{
+    position: absolute;
+    bottom: 1px;
+    left: 20px;
+}
